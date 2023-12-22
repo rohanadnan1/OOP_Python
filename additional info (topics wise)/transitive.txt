@@ -1,0 +1,25 @@
+Here's an explanation of "transitive" in programming, using easy-to-understand terms:
+
+Imagine a chain of connections. In programming, "transitive" means something that flows or connects indirectly, through a chain of relationships.
+
+Here are two common ways "transitive" is used in programming:
+
+1. Transitive Dependencies:
+
+Think of it like borrowing a book from a friend who borrowed it from the library.
+In programming, a piece of code (A) might depend on another piece (B), which in turn depends on a third piece (C).
+A doesn't directly use C, but it still needs C to function, because B relies on it.
+This creates a transitive dependency: A depends on B, which depends on C. So, A indirectly depends on C.
+2. Transitive Relations:
+
+Imagine a game where you can beat a character who beat another character.
+If you can beat someone who beat someone else, you're indirectly better than the third person.
+In programming, transitive relations often involve comparisons like "greater than" or "equal to."
+If A is greater than B, and B is greater than C, then transitivity means A is also greater than C.
+Key points to remember:
+
+Transitive relationships involve indirect connections.
+They often create chains of dependencies or comparisons.
+Being aware of transitive relationships helps manage code complexity and ensure code logic works as intended.
+
+Inheritance is transitive in nature
